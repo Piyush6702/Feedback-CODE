@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&&family=Poppins&display=swap");
+
+:root {
+  --font1: "Nunito", sans-serif;
+  --font2: "Poppins", sans-serif;
+}
+
+.complete-screen {
+  /* background-color: #eeeeee; */
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 1px;
+}
+
+.feedbackHead {
+  margin: 20px auto;
+  width: 80%;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  font-family: var(--font1);
+  font-weight: bold;
+  background-color: #ec7c2d;
+}
+
+.leftDiv {
+  position: relative;
+  display: flex;
+  margin: 20px auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  width: 80%;
+  min-height: 400px;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  overflow: hidden;
+  border: 2px solid #fff;
+}
+
+.column {
+  flex: 1; /* Standard syntax */
+}
+
+.leftCol {
+  min-width: 400px;
+  text-align: center;
+  padding: 50px;
+  box-shadow: 0 0 6px rgb(221, 219, 219);
+  /* background-color: rgb(243, 109, 109); */
+}
+
+.imgBlock {
+  display: inline-block;
+}
+
+.leftColHeading {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: var(--font2);
+  letter-spacing: 2px;
+  color: black;
+}
+
+.leftColPara {
+  font-size: 18px;
+  color: rebeccapurple;
+  font-family: var(--font1);
+}
+
+.rightCol {
+  display: flex;
+  padding: 50px;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: #ffffff;
+
+  /* box-shadow: 5px 5px 3px 5px black; */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.rightCol:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.rightCol p {
+  text-align:center;
+  margin: 15px 0px;
+  font-size: 20px;
+  font-family: var(--font2);
+}
+.formBlock {
+  margin-top: 40px;
+}
+
+.btnDefault {
+  margin: 0px auto; 
+  margin-top: 20px;
+  background-color: #ec7c2d;
+  width: 460px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--font2);
+}
+
+
+.formBlock textarea {
+  position: relative;
+  resize: none;
+  height: 150px;
+  width: 460px;
+  outline: none;
+  padding: 10px ;
+  border: none;
+ 
+  border-radius: 5px;
+  /* background-color: rgba(255, 221, 159, 0.63); */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 -3px 6px rgba(0, 0, 0, 0.23);
+  font-size: 14px;
+  font-family: var(--font2);
+  color: black;
+  font-weight: normal;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1288px) {
+  .leftDiv {
+    width: 90%;
+  }
+  .feedbackHead {
+    width: 90%;
+  }
+  .rightCol p {
+    font-size: 24px;
+  }
+ 
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .column{
+    padding: 20px;
+  }
+  .leftDiv {
+    width: 90%;
+  }
+  .feedbackHead {
+    margin: 20px auto;
+    width: 90%;
+  }
+  .formBlock{
+    min-width: 90%;
+  }
+  .formBlock textarea,.btnDefault{
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .leftDiv{
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .feedbackHead {
+    width: 100%;
+    border-radius: 0px;
+  }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .leftColHeading{
+    font-size: 20px;
+  }
+  .leftCol{
+
+  }
+  .leftColPara{
+    font-size: 14px;
+  }
+  .column{
+    padding: 10px ;
+  }
+  .imgBlock {
+    width: 250px;
+  }
+  .formBlock textarea {
+    width: 90vw;
+    font-size: 14px;
+    margin:0px auto !important;
+
+
+  }
+  .btnDefault{
+    width: 90vw;
+  }
+  .rightCol p{
+    font-size: 16px;
+    
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  .leftCol{
+    min-width: 200px;
+    width: auto;
+  }
+  .imgBlock {
+    width: 190px;
+  }
+}
+
