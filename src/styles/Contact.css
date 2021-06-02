@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&&family=Poppins&display=swap");
+
+:root {
+  --font1: "Nunito", sans-serif;
+  --font2: "Poppins", sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ContactSection{
+    margin-top: 20px;
+}
+
+.ContactSection .Infotext{
+    width: 100%;
+    text-align: center;
+    font-family: inherit;
+    padding: 5px;
+}
+
+.ContactDivs{
+    font-family: var(--font2);
+    display: flex;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    /* align-items: ; */
+    padding: 20px;
+}
+
+.contactDetails{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+.contactDetails h2{
+    font-weight: bold;
+
+}
+
+.codeAddress{
+    display: flex;
+    align-items: flex-start;
+    margin: 14px 0px;
+}
+
+.Address-Content{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.Address-Content h4{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.Address-Content p{
+    font-size: 18px;
+    color: rgb(94, 93, 93);
+}
+
+
+.ContactForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+}
+
+.ContactForm input,.textareaContactDetails{
+
+    width: 100%;
+    padding: 14px;
+    margin: 8px 0px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    font-family: inherit;
+
+}
+
+
+
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+
+    height: 40px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-4 {
+    background-image: linear-gradient(to right, #ec7c2d, #ff9a44, #ef9d43, #e75516);
+    /* box-shadow: 0 2px 15px 0 rgba(14, 0, 1, 0.75); */
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 1288px){
+    .ContactDivs{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 789px){
+    .ContactDivs{
+
+        flex-wrap: wrap;
+        justify-content: stretch;
+    }
+    .contactDetails{
+        margin: 0px;
+    }
+    .ContactForm{
+
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .Address-Content h4{
+        font-size: 18px;
+
+    }
+    
+    .Address-Content p{
+        font-size: 16px;
+    }
+
+    .btn-hover{
+        width: 100%;
+    }
+}

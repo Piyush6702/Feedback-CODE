@@ -7,31 +7,10 @@ const useStyles = makeStyles({
         root: {
           color:'#F59F58',
           height: '10px',
-          width:'100%',
+          width:'90%',
           marginTop:'10px'
         },
-        // thumb: {
-        //   height: 24,
-        //   width: 24,
-        //   border: '2px solid currentColor',
-        //   marginTop: -8,
-        //   marginLeft: -12,
-        //   '&:focus, &:hover, &$active': {
-        //     boxShadow: 'inherit',
-        //   },
-        // },
-        // active: {},
-        // valueLabel: {
-        //   left: 'calc(-50% + 4px)',
-        // },
-        track: {
-          height: '10px !important',
-          borderRadius: 4,
-        },
-        // rail: {
-        //   height: 20,
-        //   borderRadius: 4,
-        // },
+        
   });
   ;
   const marks = [

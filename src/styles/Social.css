@@ -1,0 +1,17 @@
+.social
+{
+    text-align:center;
+    margin:0 auto;
+}
+.socialMediaDiv
+{
+    padding:20px;
+     
+    flex-wrap:wrap;;
+    text-align:center;
+}
+.socialMediaDiv >ul{
+    text-align: center;
+    margin:0;
+    padding:0;
+}
