@@ -1,6 +1,7 @@
 import React, { lazy } from "react";
 import RangeSlider from "./RangeSlider";
-import Social from "./Social"
+import WorkWithUs from './WorkWithUs'
+
 import Contact from './Contact'
 import { Form, FormGroup, Input, Button } from "reactstrap";
 import logo from "../assets/feedback.png";
@@ -43,11 +44,8 @@ export const Feedback = () => {
       </div>
       <div className="contact">
       <Contact/>
-
-      {/* Use Shivangi Code of Social 
-       */}
-      {/* <Social /> */}
       </div>
+      <WorkWithUs/>
     </div>
   );
 };
