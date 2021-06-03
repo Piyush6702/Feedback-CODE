@@ -1,4 +1,4 @@
-import "../styles/Newsletter.css";
+
 import "../styles/Contact.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

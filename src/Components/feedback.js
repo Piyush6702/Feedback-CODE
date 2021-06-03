@@ -6,7 +6,6 @@ import Contact from './Contact'
 import { Form, FormGroup, Input, Button } from "reactstrap";
 import logo from "../assets/feedback.png";
 import "../styles/feedback.css";
-import "../styles/Newsletter.css";
 import "../styles/Contact.css";
 
 export const Feedback = () => {
