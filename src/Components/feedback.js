@@ -12,7 +12,7 @@ export const Feedback = () => {
   return (
     <div>
       <div className="complete-screen">
-        <h1 className="feedbackHead">FEEDBACK</h1>
+        <h1 className="feedbackHead">Provide your feedback</h1>
         <div className="leftDiv">
           <div className="leftCol column">
             <p className="leftColHeading">Feel free to drop us your feedback</p>

@@ -13,6 +13,7 @@
 
 .ContactSection{
     margin-top: 20px;
+    padding: 10px 20px;
 }
 
 .ContactSection .Infotext{
@@ -129,6 +130,7 @@
     .ContactDivs{
         padding: 0px;
         flex-wrap: wrap;
+        width: 90%;
         justify-content: stretch;
     }
     .contactDetails{
@@ -137,6 +139,11 @@
     .ContactForm{
 
         width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .ContactSection{
+        padding: 0px;
     }
 }
 
