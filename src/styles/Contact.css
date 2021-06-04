@@ -13,7 +13,7 @@
 
 .ContactSection{
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 10px 0px;
 }
 
 .ContactSection .Infotext{
@@ -27,9 +27,10 @@
     font-family: var(--font2);
     display: flex;
     flex-wrap: nowrap;
-    width: 80%;
+    width: 100%;
     margin: auto;
     justify-content: space-between;
+    align-items: stretch;
     /* align-items: ; */
     padding: 20px;
 }
@@ -119,18 +120,13 @@
 
 
 /* Media Queries */
-@media screen and (max-width: 1288px){
-    .ContactDivs{
-        width: 90%;
-    }
-}
+
 
 
 @media screen and (max-width: 789px){
     .ContactDivs{
         padding: 0px;
         flex-wrap: wrap;
-        width: 90%;
         justify-content: stretch;
     }
     .contactDetails{
@@ -145,12 +141,17 @@
     .ContactSection{
         padding: 0px;
     }
+    
 }
 
 @media screen and (max-width: 426px){
     .Address-Content h4{
         font-size: 18px;
 
+    }
+
+    .ContactDivs{
+        padding: 10px;
     }
     
     .Address-Content p{

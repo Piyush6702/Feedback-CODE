@@ -9,7 +9,7 @@
 }
 
 .Sliderdiv {
-  width: 90%;
+  width: 98%;
   margin: 20px auto;
 }
 .secondaryh2 {
@@ -20,3 +20,11 @@
 }
 
 /* Media Quaries */
+
+
+@media screen and (max-width: 500px){
+ .Sliderdiv{
+   width: 90%;
+ }
+  
+}

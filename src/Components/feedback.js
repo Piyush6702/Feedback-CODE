@@ -1,8 +1,8 @@
 import React, { lazy } from "react";
 import RangeSlider from "./RangeSlider";
-import WorkWithUs from './WorkWithUs'
+import WorkWithUs from "./WorkWithUs";
 
-import Contact from './Contact'
+import Contact from "./Contact";
 import { Form, FormGroup, Input, Button } from "reactstrap";
 import logo from "../assets/feedback.png";
 import "../styles/feedback.css";
@@ -40,11 +40,11 @@ export const Feedback = () => {
             </div>
           </div>
         </div>
+        <div className="contact">
+          <Contact />
+        </div>
       </div>
-      <div className="contact">
-      <Contact/>
-      </div>
-      <WorkWithUs/>
+      <WorkWithUs />
     </div>
   );
 };

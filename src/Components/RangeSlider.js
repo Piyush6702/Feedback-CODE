@@ -7,7 +7,8 @@ const useStyles = makeStyles({
         root: {
           color:'#F59F58',
           height: '10px',
-          width:'90%',
+          width:'100%',
+          margin:'0px auto',
           marginTop:'10px'
         },
         
